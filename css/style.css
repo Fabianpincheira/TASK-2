@@ -1,0 +1,236 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45px 1fr;
+  }
+  
+  .nav-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #5b5c5c;
+    width: 100vw;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+  }
+  
+  .nav-container ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+  }
+  
+  .nav-container li {
+    display: inline;
+    margin: 15px;
+    font-weight: bold;
+   
+  }
+  
+  .nav-container li a {
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  .section-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  
+
+  .section-container .box1{
+    display: block;
+    justify-content:left;
+    background-color: 	#A9A9A9;
+    border-radius: 40px;
+    width: 70%;
+    height: 70%;
+    padding: 50px;
+    margin:auto 10%;
+
+  }
+  .section-container .box2{
+    display: block;
+    justify-content: right;
+    background-color: 	#A9A9A9;
+    border-radius: 40px;
+    width: 70%;
+    height: 70%;
+    padding: 30px;
+
+
+  }
+  
+  
+.section-container2 {
+    width: 100%;
+    background-color: #e7e0e0;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section-container2 .box-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-container2 .box-container .main-title{
+    width: 100%;
+    font-size: 45px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 2rem ;
+    align-items: center;
+}
+
+.section-container2 .box-container .box-module {
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.section-container2 .box-container .box-module .box {
+    width: 22.5%;
+    padding: 8rem;
+    background-color: #A9A9A9;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-container2 .box-container .box-module .box:nth-of-type(2) {
+    background-color: #A9A9A9;
+}
+
+.section-container2 .box-container .box-module .box:nth-of-type(3) {
+    background-color: #A9A9A9;
+}
+
+.section-container2 .box-container .box-module .box:nth-of-type(4) {
+    background-color: #A9A9A9;
+}
+
+img {
+    width: 100%;
+}
+
+.section-container3 {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+  }
+  .section-container3 .box3{
+    display:block;
+    border-radius: 40px;
+    width: 70%;
+    height: 70%;
+    padding: 50px;
+    margin:auto 10%;
+
+
+  }
+  .section-container3 .box4{
+    display: block;
+    background-color:#A9A9A9;
+    border-radius: 40px;
+    width: 70%;
+    height: 70%;
+    padding: 30px;
+
+  }
+
+  .section-container3 .box3 text {
+    display: block;
+    justify-content: space-between;
+    width: 80%;
+    height: 70%;
+  
+  }
+
+  .section-container4 {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+  }
+
+
+
+
+  form {
+      width: 50vw;
+      height: 100vh;
+      border-radius:10px;
+      margin:auto;
+      background-color:#ccc;
+      flex: auto;
+      align-items: center;
+      display: block;      
+      
+
+  }
+  
+  input {
+      width: 60%;
+      height: 40px;
+      display: block;
+      border-radius: 2px;
+      padding: 5px;
+      align-items: center;
+      
+  }
+
+  footer {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: darkgrey;
+  }
+
+  
